@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/ypcb.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>YPCB | Donation</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/checkout/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+
+
+    <style>
+      input[type="number"]::-webkit-inner-spin-button,
+      input[type="number"]::-webkit-outer-spin-button{
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    </style>
+  </head>
+  
+  <body class="bg-light">
+
+
+    
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-expand-sm 
+    text-uppercase navbar-dark mx-lg-4 me-lg-4" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imgs/Untitled-2.png" alt="" srcset="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample03"
+        aria-controls="navbarsExample03"
+        aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-center"
+        id="navbarsExample03">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about us.html">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">contacts</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                projects
+              </a>
+              <ul class="dropdown-menu p-2">
+                <li><a class="dropdown-item" href="#">wash</a></li>
+                <li><a class="dropdown-item" href="#">peace building</a></li>
+                <li><a class="dropdown-item" href="#">Gender and protection</a></li>
+                <li><a class="dropdown-item" href="#">Education</a></li>
+                <li><a class="dropdown-item" href="#">Food security and livelihoods</a></li>
+                <li><a class="dropdown-item" href="#">Capacity Building</a></li>
+                <li><a class="dropdown-item" href="#">Environment protection</a></li>
+                <li><a class="dropdown-item" href="#">Health / hygiene promotion</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex">
+       
+          <a class="btn sub-btn mx-2 text-uppercase" href="donation.html">
+            Donate
+          </a>
+        </form>
+      </div>
+    </nav>
+
+
+<!-- End Navbar -->
+
+
+
+
+
+    
+
+  <main>
+    <div class="container col-md-9 mt-lg-5">
+      <div class="py-5">
+        <p class="lead text-md-center fa-2x"
+        style="background-color:#ebf8ff; 
+        font-weight: 500;padding: 50px;
+        border-radius: 5px;">
+          <span style="color: #0077b5;">
+            YPCB
+          </span> considers gender equity in its planning and operation
+        </p>
+      </div>
+    </div>
+      <div class="col-md-7 col-lg-8 m-auto p-4"
+      style="color: #0077b5;
+      font-weight: bolder; font-size: larger;">
+        <h4 class="mb-3">Payment details</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">
+                First name *
+            </label>
+              <input type="text" class="form-control" id="firstName"
+              placeholder="" maxlength="8" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name *</label>
+              <input type="text" class="form-control" id="lastName"
+              placeholder="" maxlength="8" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-md-5">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>United States</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>California</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+  
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="zip"
+                placeholder="" maxlength="6" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+              <div class="col-md-3 p-2 d-flex">
+                <button class="btn donat-btn m-1">$15.00</button>
+                <button class="btn donat-btn m-1">$20.00</button>
+                <button class="btn donat-btn m-1">$30.00</button>
+              </div>
+            </div>
+        </form>
+  
+            <hr class="my-4">
+  
+            
+
+
+
+            <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Your contact details</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email address *</label>
+                        <input type="email" class="form-control"
+                        id="email" maxlength="20" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                          Please enter a valid email address for shipping updates.
+                        </div>
+                      </div>
+
+                    <div class="col-12 mt-4">
+                        <label class="form-label">Phone number</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                          <input type="number" class="form-control"
+                          id="phonenumber" placeholder=""
+                          maxlength="13" required>
+                        <div class="invalid-feedback">
+                            Your username is required.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="form-check mt-4">
+                        <input type="checkbox" class="form-check-input"
+                        id="same-address">
+                        <label class="form-check-label" for="same-address">
+                           Yes, I am happy for YPCB to use the personal information.
+                        </label>
+                      </div>
+                      </form>
+            
+
+
+          <hr class="my-4">
+          <h4 class="mb-3">Payment method</h4>
+          <form class="needs-validation" novalidate>
+          <div class="my-3 d-flex">
+            <div class="form-check m-1">
+              <label class="form-check-label" for="credit">
+                <img src="imgs/unnamed.png"
+                alt="" width="40px" srcset="">
+              </label>
+            </div>
+            <div class="form-check m-1">
+              <label class="form-check-label" for="debit">
+                <img src="imgs/Visa.svg.png"
+                alt="" width="50px" srcset="">
+              </label>
+            </div>
+            <div class="form-check m-1">
+              <label class="form-check-label" for="paypal">
+                <img src="imgs/Mastercard-logo.svg.png"
+                alt="" width="50px" srcset="">
+              </label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">Name on card</label>
+              <input type="text" class="form-control" id="cc-name"
+              placeholder="" maxlength="14" required>
+              <small class="text-muted">Full name as displayed on card</small>
+              <div class="invalid-feedback">
+                Name on card is required
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">Credit card number</label>
+              <input type="text" class="form-control" id="cc-number"
+              placeholder="" maxlength="16" required>
+              <div class="invalid-feedback">
+                Credit card number is required
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="cc-expiration" class="form-label">Expiration</label>
+              <input type="date" class="form-control" id="cc-expiration"
+              placeholder="" required>
+              <div class="invalid-feedback">
+                Expiration date required
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="cc-cvv" class="form-label">Security code</label>
+              <input type="text" class="form-control" id="cc-cvv"
+              placeholder="cvc" maxlength="8" required>
+              <div class="invalid-feedback">
+                Security code required
+              </div>
+            </div>
+          </div>
+          </form>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn sub-btn btn-lg text-uppercase mb-4" type="submit">
+            Donate</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  
+  
+  
+  
+
+     
+     <!-- Footer -->
+     <footer class="text-center text-lg-start bg-light"
+     style="margin-top: 10%;">
+    
+    
+  
+      
+     
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center
+        justify-content-lg-between pt-3">
+          <!-- Right -->
+          <div class="mx-auto">
+            <ul class="d-flex list-unstyled gap-3">
+              <li>
+                <a href=""
+                target="_blank" rel="noopener noreferrer"
+                class="d-block text-danger">
+                  <i class="fab fa-instagram fa-lg instagram rounded-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/groups/434176308924820/?ref=share_group_link"\
+                target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook fa-lg facebook rounded-circle"></i
+                  ></a>
+              </li>
+              <li>
+                <a class="d-block text-info"
+                href="https://x.com/ypcb_org?t=Fmfkn2Wiz6z4LHbKMHCR7Q&s=09"
+                target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle"></i
+                ></a>
+              </li>
+              <li>
+                <a class="d-block text-danger"
+                href="https://youtube.com/@ypcb?si=GfalS2ANbckU_xYy"
+                target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+    
+        
+    
+    <!-- Copyright -->
+  <div class="text-center text-light justify-content-between pb-lg-5">
+    <a class="text-decoration-none text-black" style="font-size: 14px;"
+    href="index.html">© 2023 <span class="text-uppercase">ypcb</span> : All rights Reserved.</a>
+    <style>
+      .cr:hover{
+        border-bottom: 2px solid rgb(30, 167, 209);
+      }
+    </style>
+   </div>
+   <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+  </body>
+</html>
